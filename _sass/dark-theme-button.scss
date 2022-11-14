@@ -1,13 +1,10 @@
-
-
-  .dark-theme-button{
-    display: inline-flex;
-    position: relative ;
-    float: right;
-    align-items: center;
-    justify-content: center;
-    margin: 25px;
-
+.dark-theme-button {
+  display: inline-flex;
+  position: relative;
+  float: right;
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
 }
   .checkbox {
     opacity: 0;
@@ -59,11 +56,10 @@
     color: yellow;
   }
 
-  @media only screen and (max-width: 1500px) {
-    #toggle-container {
-      top: 2vh;
-      right: 2vw;
-    }
+@media only screen and (max-width: 1500px) {
+  #toggle-container {
+    top: 2vh;
+    right: 2vw;
   }
 
   @media only screen and (max-width: 1000px) {
@@ -79,8 +75,9 @@
       right: 20px;
     }
   }
+}
 
-$body: #cecee7;
+$body: #cecee7 ;
 $body-dark: #313a44;
 $card-bg: #ffffff;
 $card-bg-dark: #1e2732;
@@ -94,8 +91,6 @@ $p-text: #212529;
 $p-text-dark: #ffffff;
 $border: #d5dbe0;
 $border-dark: #ffffff;
-
-
 
 :root {
   --color-body: #{$body};
